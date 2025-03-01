@@ -67,7 +67,6 @@ body {
   direction: rtl;
   text-align: right;
 }
-
 a {
   color: var(--accent-color);
   text-decoration: none;
@@ -150,6 +149,7 @@ h6 {
   padding: 15px 0;
   transition: all 0.5s;
   z-index: 997;
+
 }
 
 .header .logo {
@@ -167,6 +167,7 @@ h6 {
   font-weight: 700;
   color: var(--heading-color);
   text-transform: uppercase;
+  font-family: var(--heading-font);
 }
 
 .header .btn-getstarted,
@@ -185,7 +186,24 @@ h6 {
   color: var(--contrast-color);
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
 }
-
+.navmenu {
+  display: flex;
+  justify-content: center !important; /* توسيط القائمة أفقيًا */
+  width: 100%;
+}
+.navmenu ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.mobile-nav-toggle {
+  position: absolute;
+  left: 10px; /* تحريكه إلى اليسار */
+  top: 50%;
+  transform: translateY(-50%); /* محاذاة رأسية في المنتصف */
+}
 @media (max-width: 1200px) {
   .header .logo {
     order: 1;
@@ -197,9 +215,19 @@ h6 {
     padding: 6px 15px;
   }
 
+ 
   .header .navmenu {
     order: 3;
+    
   }
+  .navmenu {
+    flex-direction: column !important;
+    align-items: center !important;
+}
+.navmenu ul {
+  flex-direction: column !important;
+  text-align: center !important;
+}
 }
 
 .scrolled .header {
