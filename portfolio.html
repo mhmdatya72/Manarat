@@ -31,36 +31,21 @@
 
 <body class="index-page" >
 
-  <header id="header" class="header d-flex align-items-center sticky-top">
+ 
+ <header id="header" class="header d-flex align-items-center sticky-top">
     <div class="m container-fluid container-xl position-relative d-flex align-items-center">
       <a href="index.html" class="logo d-flex align-items-center me-auto">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename" style="color: rgb(14, 10, 10); font-weight: bold; white-space: nowrap;">منارات الهدي BMG</h1>
+        <h1 class="sitename" style="color: rgb(14, 10, 10); font-weight: bold; white-space: nowrap;">منارات الهدي BMG
+        </h1>
       </a>
       <nav id="navmenu" class="navmenu mx-auto">
         <ul class="">
           <li><a href="index.html" class="active">الرئيسية</a></li>
-          <li class="dropdown"><a href="about.html"><span>عن الشركة</span> <i
-            class="bi bi-chevron-down toggle-dropdown"></i></a>
-        <ul>
-          <li><a href="team.html">الفريق</a></li>
-          <li><a href="testimonials.html">آراء العملاء</a></li>
-          <li class="dropdown"><a href="#"><span>خدماتنا</span> <i
-            class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-          <li><a href="#">التصميم الإبداعي</a></li>
-          <li><a href="#">الطباعة الرقمية</a></li>
-          <li><a href="#">التصوير الاحترافي</a></li>
-          <li><a href="#">تصنيع اللوحات الإعلانية</a></li>
-          <li><a href="#">التسويق الرقمي</a></li>
-            </ul>
-          </li>
-        </ul>
-          </li>
+          <li><a href="about.html"><span>عن الشركة</span>
           <li><a href="services.html">الخدمات</a></li>
           <li><a href="portfolio.html">أعمالنا</a></li>
-          <li><a href="pricing.html">الأسعار</a></li>
           <li><a href="blog.html">المدونة</a></li>
           <li><a href="contact.html">اتصل بنا</a></li>
         </ul>
@@ -85,192 +70,274 @@
   </div>
 </div><!-- End Page Title -->
    <!-- Portfolio Section -->
-<section id="portfolio" class="portfolio section">
+ <!-- قسم الأعمال السابقة (Portfolio Section) -->
+ <section id="portfolio" class="portfolio section">
+
+  <!-- عنوان القسم -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>أعمالنا</h2>
+    <p>مجموعة من المشاريع التي تعكس خبرتنا في التصميم، الطباعة، البرمجة، والتسويق الرقمي</p>
+  </div><!-- نهاية عنوان القسم -->
+
   <div class="container">
+
     <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-      <!-- Portfolio Filters -->
+
       <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-        <li data-filter="*" class="filter-active">الكل</li>
-        <li data-filter=".filter-app">تطبيقات</li>
-        <li data-filter=".filter-product">منتجات</li>
-        <li data-filter=".filter-branding">تصميم العلامات التجارية</li>
-      </ul><!-- End Portfolio Filters -->
+        <li data-filter="*" class="filter-active">كل الأعمال</li>
+        <li data-filter=".filter-design">خدمات الإعلان الإعلامي والطباعة</li>
+        <li data-filter=".filter-development">تطوير البرمجيات</li>
+        <li data-filter=".filter-marketing">التسويق الرقمي</li>
+      </ul>
 
-      <!-- Portfolio Items -->
       <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-        <!-- Portfolio Item 1 -->
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-          <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>تطبيق 1</h4>
-            <p>وصف التطبيق الأول</p>
-            <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="تطبيق 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.html" title="المزيد من التفاصيل" class="details-link"><i class="bi bi-link-45deg"></i></a>
-          </div>
-        </div><!-- End Portfolio Item -->
 
-        <!-- Portfolio Item 2 -->
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-          <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="">
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+          <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="تصميم هوية بصرية">
           <div class="portfolio-info">
-            <h4>منتج 1</h4>
-            <p>وصف المنتج الأول</p>
-            <a href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="منتج 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.html" title="المزيد من التفاصيل" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            <h4>تصميم الهوية البصرية</h4>
+            <p>إنشاء هويات بصرية متميزة تناسب الشركات وتساعد في تعزيز العلامة التجارية.</p>
+            <a href="portfolio-details.html" title="تفاصيل أكثر" class="details-link"><i
+                class="bi bi-link-45deg"></i></a>
           </div>
-        </div><!-- End Portfolio Item -->
+        </div>
 
-        <!-- Portfolio Item 3 -->
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-          <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+          <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="تصميم هوية بصرية">
           <div class="portfolio-info">
-            <h4>علامة تجارية 1</h4>
-            <p>وصف العلامة التجارية الأولى</p>
-            <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="علامة تجارية 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.html" title="المزيد من التفاصيل" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            <h4>تصميم الهوية البصرية</h4>
+            <p>إنشاء هويات بصرية متميزة تناسب الشركات وتساعد في تعزيز العلامة التجارية.</p>
+            <a href="portfolio-details.html" title="تفاصيل أكثر" class="details-link"><i
+                class="bi bi-link-45deg"></i></a>
           </div>
-        </div><!-- End Portfolio Item -->
+        </div>
 
-        <!-- Portfolio Item 4 -->
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-          <img src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>تطبيق 2</h4>
-            <p>وصف التطبيق الثاني</p>
-            <a href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="تطبيق 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.html" title="المزيد من التفاصيل" class="details-link"><i class="bi bi-link-45deg"></i></a>
-          </div>
-        </div><!-- End Portfolio Item -->
 
-        <!-- Portfolio Item 5 -->
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-          <img src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>منتج 2</h4>
-            <p>وصف المنتج الثاني</p>
-            <a href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="منتج 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.html" title="المزيد من التفاصيل" class="details-link"><i class="bi bi-link-45deg"></i></a>
-          </div>
-        </div><!-- End Portfolio Item -->
 
-        <!-- Portfolio Item 6 -->
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-          <img src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>علامة تجارية 2</h4>
-            <p>وصف العلامة التجارية الثانية</p>
-            <a href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="علامة تجارية 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.html" title="المزيد من التفاصيل" class="details-link"><i class="bi bi-link-45deg"></i></a>
-          </div>
-        </div><!-- End Portfolio Item -->
 
-        <!-- Portfolio Item 7 -->
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-          <img src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>تطبيق 3</h4>
-            <p>وصف التطبيق الثالث</p>
-            <a href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="تطبيق 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.html" title="المزيد من التفاصيل" class="details-link"><i class="bi bi-link-45deg"></i></a>
-          </div>
-        </div><!-- End Portfolio Item -->
 
-        <!-- Portfolio Item 8 -->
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-          <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>منتج 3</h4>
-            <p>وصف المنتج الثالث</p>
-            <a href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="منتج 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.html" title="المزيد من التفاصيل" class="details-link"><i class="bi bi-link-45deg"></i></a>
-          </div>
-        </div><!-- End Portfolio Item -->
 
-        <!-- Portfolio Item 9 -->
-        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-          <img src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-development">
+          <img src="img/n2.png" class="img-fluid" alt="تطوير المواقع والتطبيقات">
           <div class="portfolio-info">
-            <h4>علامة تجارية 3</h4>
-            <p>وصف العلامة التجارية الثالثة</p>
-            <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="علامة تجارية 3" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.html" title="المزيد من التفاصيل" class="details-link"><i class="bi bi-link-45deg"></i></a>
+            <h4>تطوير المواقع والتطبيقات</h4>
+            <p>تصميم وتطوير مواقع إلكترونية تفاعلية ومتاجر إلكترونية باستخدام أحدث التقنيات.</p>
+            <a href="portfolio-details.html" title="تفاصيل أكثر" class="details-link"><i
+                class="bi bi-link-45deg"></i></a>
           </div>
-        </div><!-- End Portfolio Item -->
-      </div><!-- End Portfolio Container -->
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-development">
+          <img src="img/n1.png" class="img-fluid" alt="تطوير المواقع والتطبيقات">
+          <div class="portfolio-info">
+            <h4>تطوير المواقع والتطبيقات</h4>
+            <p>تصميم وتطوير مواقع إلكترونية تفاعلية ومتاجر إلكترونية باستخدام أحدث التقنيات.</p>
+            <a href="portfolio-details.html" title="تفاصيل أكثر" class="details-link"><i
+                class="bi bi-link-45deg"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-development">
+          <img src="img/n3.png" class="img-fluid" alt="تطوير المواقع والتطبيقات">
+          <div class="portfolio-info">
+            <h4>تطوير المواقع والتطبيقات</h4>
+            <p>تصميم وتطوير مواقع إلكترونية تفاعلية ومتاجر إلكترونية باستخدام أحدث التقنيات.</p>
+            <a href="portfolio-details.html" title="تفاصيل أكثر" class="details-link"><i
+                class="bi bi-link-45deg"></i></a>
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-marketing">
+          <img src="img/n1.jpg" class="img-fluid" alt="التسويق الرقمي">
+          <div class="portfolio-info">
+            <h4>التسويق الرقمي</h4>
+            <p>إدارة الحملات التسويقية وتحسين محركات البحث (SEO) لتعزيز التواجد الرقمي.</p>
+            <a href="portfolio-details.html" title="تفاصيل أكثر" class="details-link"><i
+                class="bi bi-link-45deg"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-marketing">
+          <img src="img/n4.jpg" class="img-fluid" alt="التسويق الرقمي">
+          <div class="portfolio-info">
+            <h4>التسويق الرقمي</h4>
+            <p>إدارة الحملات التسويقية وتحسين محركات البحث (SEO) لتعزيز التواجد الرقمي.</p>
+            <a href="portfolio-details.html" title="تفاصيل أكثر" class="details-link"><i
+                class="bi bi-link-45deg"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-marketing">
+          <img src="img/n5.jpg" class="img-fluid" alt="التسويق الرقمي">
+          <div class="portfolio-info">
+            <h4>التسويق الرقمي</h4>
+            <p>إدارة الحملات التسويقية وتحسين محركات البحث (SEO) لتعزيز التواجد الرقمي.</p>
+            <a href="portfolio-details.html" title="تفاصيل أكثر" class="details-link"><i
+                class="bi bi-link-45deg"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-marketing">
+          <img src="img/n6.jpg" class="img-fluid" alt="التسويق الرقمي">
+          <div class="portfolio-info">
+            <h4>التسويق الرقمي</h4>
+            <p>إدارة الحملات التسويقية وتحسين محركات البحث (SEO) لتعزيز التواجد الرقمي.</p>
+            <a href="portfolio-details.html" title="تفاصيل أكثر" class="details-link"><i
+                class="bi bi-link-45deg"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-marketing">
+          <img src="img/n7.jpg" class="img-fluid" alt="التسويق الرقمي">
+          <div class="portfolio-info">
+            <h4>التسويق الرقمي</h4>
+            <p>إدارة الحملات التسويقية وتحسين محركات البحث (SEO) لتعزيز التواجد الرقمي.</p>
+            <a href="portfolio-details.html" title="تفاصيل أكثر" class="details-link"><i
+                class="bi bi-link-45deg"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-marketing">
+          <img src="img/n9.jpg" class="img-fluid" alt="التسويق الرقمي">
+          <div class="portfolio-info">
+            <h4>التسويق الرقمي</h4>
+            <p>إدارة الحملات التسويقية وتحسين محركات البحث (SEO) لتعزيز التواجد الرقمي.</p>
+            <a href="portfolio-details.html" title="تفاصيل أكثر" class="details-link"><i
+                class="bi bi-link-45deg"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-marketing">
+          <img src="img/n10.jpg" class="img-fluid" alt="التسويق الرقمي">
+          <div class="portfolio-info">
+            <h4>التسويق الرقمي</h4>
+            <p>إدارة الحملات التسويقية وتحسين محركات البحث (SEO) لتعزيز التواجد الرقمي.</p>
+            <a href="portfolio-details.html" title="تفاصيل أكثر" class="details-link"><i
+                class="bi bi-link-45deg"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-marketing">
+          <img src="img/n11.jpg" class="img-fluid" alt="التسويق الرقمي">
+          <div class="portfolio-info">
+            <h4>التسويق الرقمي</h4>
+            <p>إدارة الحملات التسويقية وتحسين محركات البحث (SEO) لتعزيز التواجد الرقمي.</p>
+            <a href="portfolio-details.html" title="تفاصيل أكثر" class="details-link"><i
+                class="bi bi-link-45deg"></i></a>
+          </div>
+        </div><!-- نهاية عنصر العمل -->
+        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-marketing">
+          <img src="img/n12.jpg" class="img-fluid" alt="التسويق الرقمي">
+          <div class="portfolio-info">
+            <h4>التسويق الرقمي</h4>
+            <p>إدارة الحملات التسويقية وتحسين محركات البحث (SEO) لتعزيز التواجد الرقمي.</p>
+            <a href="portfolio-details.html" title="تفاصيل أكثر" class="details-link"><i
+                class="bi bi-link-45deg"></i></a>
+          </div>
+        </div><!-- نهاية عنصر العمل -->
+
+      </div><!-- نهاية محتوى الأعمال السابقة -->
+
     </div>
+
   </div>
-</section><!-- /Portfolio Section -->
+
+</section><!-- نهاية قسم الأعمال السابقة -->
+<!-- /Portfolio Section -->
   </main>
 
-  <footer id="footer" class="footer dark-background">
+  <footer id="footer" class="footer dark-background py-5">
     <div class="container footer-top">
       <div class="row gy-4">
+        
+        <!-- قسم التعريف بالشركة -->
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">BMG منارات الهدي</span>
+          <a href="index.html" class="logo d-flex align-items-center mb-3">
+            <span class="sitename fw-bold fs-5">BMG منارات الهدي</span>
           </a>
-          <div class="footer-contact pt-3">
-            <p>الرياض، المملكة العربية السعودية</p>
-            <p class="mt-3"><strong>رقم الهاتف:</strong>
-              <a href="tel:+966542226628">+966 542226628</a>
-            </p>
-            <p class="mt-3"><strong>رقم الهاتف:</strong>
-              <a href="tel:+966542226628">+966 561675699</a>
-            </p>
-            <p><strong>واتساب:</strong>
-              <a href="https://wa.me/0593666300" target="_blank">0593666300</a>
-            </p>
-            <p><strong>البريد الإلكتروني:</strong> <span>info@bmga-sa.com</span></p>
-            <p><strong>الموقع الإلكتروني:</strong> <a href="http://www.bmga-sa.com">www.bmga-sa.com</a></p>
+          <div class="footer-contact">
+            <p class="mb-2">📍 الرياض، المملكة العربية السعودية</p>
+            <p class="mb-2"><strong>📞 رقم الهاتف:</strong> <a href="tel:+966542226628" class="text-white">+966 542226628</a></p>
+            <p class="mb-2"><strong>📞 رقم الهاتف:</strong> <a href="tel:+966561675699" class="text-white">+966 561675699</a></p>
+            <p class="mb-2"><strong>💬 واتساب:</strong> <a href="https://wa.me/0593666300" target="_blank" class="text-white">0593666300</a></p>
+            <p class="mb-2"><strong>📧 البريد الإلكتروني:</strong> <span class="text-white">info@bmga-sa.com</span></p>
+            <p><strong>🌐 الموقع الإلكتروني:</strong> <a href="http://www.bmga-sa.com" class="text-white">www.bmga-sa.com</a></p>
           </div>
-          <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+          <div class="social-links d-flex gap-3 mt-3">
+            <a href="#" class="text-white fs-5"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.facebook.com/inomtechs2022?mibextid=ZbWKwL" class="text-white fs-5"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/inomtechs98?igsh=MXd1dnNqYWN4cGdo" class="text-white fs-5"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white fs-5"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
+  
+        <!-- روابط مفيدة -->
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>روابط مفيدة</h4>
-          <ul>
-            <li><a href="#">الرئيسية</a></li>
-            <li><a href="#">عن الشركة</a></li>
-            <li><a href="#">الخدمات</a></li>
-            <li><a href="#">شروط الخدمة</a></li>
-            <li><a href="#">سياسة الخصوصية</a></li>
+          <h4 class="fw-bold fs-6 mb-3">روابط مفيدة</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white-50">🏠 الرئيسية</a></li>
+            <li><a href="#" class="text-white-50">ℹ️ عن الشركة</a></li>
+            <li><a href="#" class="text-white-50">💼 الخدمات</a></li>
+            <li><a href="#" class="text-white-50">📜 شروط الخدمة</a></li>
+            <li><a href="#" class="text-white-50">🔒 سياسة الخصوصية</a></li>
           </ul>
         </div>
+  
+        <!-- خدماتنا -->
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>خدماتنا</h4>
-          <ul>
-            <li><a href="#">التصميم الإبداعي</a></li>
-            <li><a href="#">الطباعة الرقمية</a></li>
-            <li><a href="#">التصوير الاحترافي</a></li>
-            <li><a href="#">تصنيع اللوحات الإعلانية</a></li>
-            <li><a href="#">التسويق الرقمي</a></li>
+          <h4 class="fw-bold fs-6 mb-3">خدماتنا</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white-50">🎨 التصميم الإبداعي</a></li>
+            <li><a href="#" class="text-white-50">🖨️ الطباعة الرقمية</a></li>
+            <li><a href="#" class="text-white-50">📷 التصوير الاحترافي</a></li>
+            <li><a href="#" class="text-white-50">🚀 تصنيع اللوحات الإعلانية</a></li>
+            <li><a href="#" class="text-white-50">📢 التسويق الرقمي</a></li>
           </ul>
         </div>
+  
+        <!-- نشرة البريد -->
         <div class="col-lg-4 col-md-12 footer-newsletter">
-          <h4>نشرتنا البريدية</h4>
-          <p>اشترك في نشرتنا البريدية واحصل على أحدث الأخبار حول منتجاتنا وخدماتنا!</p>
+          <h4 class="fw-bold fs-6 mb-3">📩 نشرتنا البريدية</h4>
+          <p class="text-white-50">اشترك في نشرتنا البريدية واحصل على أحدث الأخبار حول منتجاتنا وخدماتنا!</p>
           <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="اشترك"></div>
-            <div class="loading">جاري التحميل...</div>
-            <div class="error-message"></div>
-            <div class="sent-message">تم إرسال طلب الاشتراك بنجاح. شكرًا لك!</div>
+            <div class="input-group">
+              <input type="email" name="email" class="form-control" placeholder="أدخل بريدك الإلكتروني">
+              <button type="submit" class="btn btn-primary">اشترك</button>
+            </div>
+            <div class="loading mt-2">⏳ جاري التحميل...</div>
+            <div class="error-message text-danger mt-2"></div>
+            <div class="sent-message text-success mt-2">✔️ تم إرسال طلب الاشتراك بنجاح. شكرًا لك!</div>
           </form>
         </div>
+        
       </div>
     </div>
+  
+    <!-- الحقوق -->
     <div class="container copyright text-center mt-4">
-      <p>© <span>جميع الحقوق محفوظة</span> <strong class="px-1 sitename">BMG منارات الهدي</strong> <span>2025</span></p>
+      <p class="text-white-50">© جميع الحقوق محفوظة <strong class="sitename px-1">BMG منارات الهدي</strong> 2025</p>
       <div class="credits">
-
-        Designed by <a href="https://inom-techs.com/">inom-tecks</a>
+        Designed by <a href="https://inom-techs.com/" class="text-white">inom-techs</a>
       </div>
     </div>
   </footer>
-  <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->

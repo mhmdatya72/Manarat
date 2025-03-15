@@ -1067,12 +1067,14 @@ section,
   line-height: 0;
   margin-right: 30px;
   color: var(--accent-color);
+
 }
 
 .services .service-item .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 20px;
+  margin-right: 15px;
 }
 
 .services .service-item .title a {
@@ -1400,6 +1402,7 @@ section,
 
 .team .team-member .member-info {
   padding-left: 30px;
+  margin-right: 20px;
 }
 
 @media (max-width: 468px) {
@@ -2393,6 +2396,7 @@ section,
   width: calc(100% - 40px);
   background-color: var(--background-color);
   color: var(--default-color);
+  margin-right: 50px;
 }
 
 .search-widget form input[type=text]:focus {
@@ -2467,13 +2471,13 @@ section,
 
 .recent-posts-widget .post-item img {
   width: 80px;
-  margin-right: 15px;
 }
 
 .recent-posts-widget .post-item h4 {
   font-size: 15px;
   font-weight: bold;
   margin-bottom: 5px;
+  margin-right: 20px;
 }
 
 .recent-posts-widget .post-item h4 a {
@@ -2490,6 +2494,7 @@ section,
   font-style: italic;
   font-size: 14px;
   color: color-mix(in srgb, var(--default-color), transparent 50%);
+  margin-right: 20px;
 }
 
 .tags-widget ul {
